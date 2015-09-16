@@ -49,3 +49,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'bootstrap-sass'
+gem 'pry-rails'
+gem 'figaro', '1.0'
+
