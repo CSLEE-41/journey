@@ -1,3 +1,28 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+  margin-top: 15px;
+}
+
+#intro-title {
+  text-align: center;
+  font-family: fantasy;
+}
+
+#intro-name {
+  text-align: center;
+  font-family: fantasy;
+}
+
+#intro-desc {
+  text-align: center;
+  font-family: cursive;
+}
+
+#btn {
+  text-align: center;
+  margin-top: 35px;
+}
+
+#dis {
+  font-family: comic sans;
+}
