@@ -1,6 +1,32 @@
-<h1>About#portfolio</h1>
-<p>Find me in app/views/about/portfolio.html.erb</p>
+<h2 id= 'about-title'>Recent Work</h2>
+<div class='row'>
+  <div class= 'col-md-4'>
+     <h5>Want to track your fitness success, and need help in the process?</h5>
+      <a class='btn btn-success'>Yes</a>
+      <a class='btn btn-danger'>Not Really</a>
+    <div class='jumbotron'>
+     
+     
+      <ul id= "no-show">
+        <li>Track Results!</li>
+        <li>Track Progress!</li>
+      </ul>
+    </div>
+  </div>
+  <div class= 'col-md-4'>
+    <div class='jumbotron'>
+      <h5>Maybe you want to contribute your thoughts to a given topic?</h5>
+    </div>
+  </div>
+  <div class= 'col-md-4'>
+    <div class='jumbotron'>
+      <h5>Have you created an application and want to track events?</h5>
+    </div>
+  </div>
+</div>
 
 <p id='edu-btn'>
   <%= link_to "continue", about_hire_path, class: 'btn btn-info' %>
 </p>
+
+
